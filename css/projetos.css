@@ -7,7 +7,6 @@
 .section-conteudo{
   max-width: 100%;
   margin: 0 auto;
-
 }
 
 .section-grid{
@@ -110,7 +109,6 @@
     height: 300px;
 
   }
-
   .section{
     padding: 40px;
   }
@@ -132,4 +130,33 @@
   .projeto-lista li{
     font-size: .8rem;
   }
+
+  .projeto-descricao a{
+    font-size: .8rem;
+  }
 }
+
+@media (max-width: 300px){
+  .section-projeto{
+    width: 250px;
+    height: 200px;
+  }
+
+  .projeto-lista{
+    gap: 20px;
+  }
+
+  .section-grid{
+    gap: 90px;
+  }
+
+  .section{
+    padding: 20px;
+  }
+  
+  .section{
+    height: 700px;
+  }
+}
+
+

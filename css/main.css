@@ -1,0 +1,123 @@
+main{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.div-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  margin-bottom: 120px;
+  padding: 0 40px;
+}
+
+.flex-main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.main-texto{
+  max-width: 65ch;
+  color: #4E4E4E;
+  line-height: 22px;
+}
+
+.main-texto strong{
+  color: #000;
+}
+
+.main-titulo{
+  position: relative;
+}
+
+.main-titulo::before{
+  content: '';
+  width: 8px;
+  height: 20px;
+  background-color: #752EBD;
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: -16px;
+}
+
+.main-lista{
+  list-style: none;
+
+}
+
+.main-lista li{
+  margin-bottom: 16px;
+  color: #4E4E4E;
+  position: relative;
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.lista-email::before{
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('/img/mail_FILL1_wght400_GRAD200_opsz20.svg') no-repeat center;
+  position: absolute;
+  left: -24px;
+}
+
+.lista-tel{
+  position: relative;
+}
+
+.lista-tel::before{
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('/img/call_FILL1_wght400_GRAD200_opsz20.svg') no-repeat center;
+  position: absolute;
+  left: -24px;
+}
+
+.main-icones{
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width:1000px){
+
+  .div-main{
+    grid-template-columns: 1fr;
+  }
+
+  .main-texto{
+    font-size: 1.5rem;
+    line-height: 1.125;
+  }
+
+  .main-lista li{
+    font-size: 1.5rem;
+
+  }
+  .main img{
+    display: none;
+  }
+}
+
+@media (max-width:800px){
+  .div-main{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width:600px){
+ 
+
+  .div-main{
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+
+}

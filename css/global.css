@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 1200px;
+  max-width: 1800px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.ponto-roxo{
+    color: #752EBD;
+}

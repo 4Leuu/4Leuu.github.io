@@ -2,6 +2,7 @@
   max-width: 1800px;
   background-color: #242424;
   padding: 80px;
+  padding-top: 140px;
 }
 
 .section-conteudo{
@@ -18,7 +19,7 @@
 .section-titulo{
   color: #fff;
   font-size: 2rem;
-  margin: 40px;
+  margin-left: 80px;
   position: relative;
   top: -40px;
 }

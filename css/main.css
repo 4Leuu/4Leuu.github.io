@@ -98,7 +98,7 @@ main{
   }
 
   .main-lista li{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
   }
   .main img{
@@ -114,10 +114,15 @@ main{
 
 @media (max-width:600px){
  
-
   .div-main{
     grid-template-columns: 1fr;
     margin-bottom: 20px;
   }
 
+}
+
+@media (max-width: 350px){
+  .main-lista li{
+    font-size: 1rem;
+  }
 }

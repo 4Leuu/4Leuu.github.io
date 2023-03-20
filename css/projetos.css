@@ -111,7 +111,25 @@
 
   }
 
+  .section{
+    padding: 40px;
+  }
   .section-grid{
     gap: 40px;
+  }
+}
+
+@media (max-width: 350px){
+  .section-projeto{
+    width: 300px;
+    height: 200px;
+  }
+
+  .section-grid{
+    gap: 60px;
+  }
+
+  .projeto-lista li{
+    font-size: .8rem;
   }
 }
